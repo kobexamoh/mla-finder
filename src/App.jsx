@@ -1,4 +1,3 @@
-import './App.css';
 import Landing from './views/Landing';
 import IntroCopy from './views/IntroCopy';
 
