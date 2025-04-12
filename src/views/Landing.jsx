@@ -4,4 +4,4 @@ export default function Landing() {
             <h1 className="text-3xl font-bold mb-4">Find Your MLA</h1>
         </section>
     );
-}
+} 
