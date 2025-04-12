@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Diana Batten",
+    "party": "NDP",
+    "region": "Southern Alberta",
+    "division": "Calgary-Acadia",
+    "photo": "/src/assets/headshots/member-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Amanda Chapman",
+    "party": "NDP",
+    "region": "Southern Alberta",
+    "division": "Calgary-Beddington",
+    "photo": "/src/assets/headshots/member-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Demetrios Nicolaides",
+    "party": "UCP",
+    "region": "Southern Alberta",
+    "division": "Calgary-Bow",
+    "photo": "/src/assets/headshots/member-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Joe Ceci",
+    "party": "NDP",
+    "region": "Southern Alberta",
+    "division": "Calgary-Buffalo",
+    "photo": "/src/assets/headshots/member-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Mickey Amery",
+    "party": "UCP",
+    "region": "Southern Alberta",
+    "division": "Calgary-Cross",
+    "photo": "/src/assets/headshots/member-5.png"
+  }
+]
