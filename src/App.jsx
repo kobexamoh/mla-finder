@@ -1,6 +1,7 @@
 import Landing from './views/Landing';
 import IntroCopy from './views/IntroCopy';
-import Card from './components/Card'
+import Card from './components/Card';
+import mlas from './data/mlas.json';
 
 export default function App() {
   return (
@@ -8,13 +9,18 @@ export default function App() {
       <Landing />
       <IntroCopy />
 
-      <Card
-        name="Julia Hayter"
-        party="NDP"
-        region="Southern Alberta"
-        division="Calgary-Edgemont"
-        photo="src/assets/headshots/member-6.png"
-      />
+      <div className="card-grid">
+        {mlas.map( mla => (
+          <Card
+            key={mla.id}
+            name={mla.name}
+            party={mla.party}
+            region={mla.region}
+            division={mla.division}
+            photo={mla.photo}
+          />
+        ))}
+      </div>
     </div>
   );
 }
