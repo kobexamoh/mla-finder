@@ -5,7 +5,7 @@
     "party": "NDP",
     "region": "Southern Alberta",
     "division": "Calgary-Acadia",
-    "photo": "/src/assets/headshots/member-1.png"
+    "photo": "/img/headshots/member-1.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "party": "NDP",
     "region": "Southern Alberta",
     "division": "Calgary-Beddington",
-    "photo": "/src/assets/headshots/member-2.png"
+    "photo": "/img/headshots/member-2.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "party": "UCP",
     "region": "Southern Alberta",
     "division": "Calgary-Bow",
-    "photo": "/src/assets/headshots/member-3.png"
+    "photo": "/img/headshots/member-3.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "party": "NDP",
     "region": "Southern Alberta",
     "division": "Calgary-Buffalo",
-    "photo": "/src/assets/headshots/member-4.png"
+    "photo": "/img/headshots/member-4.png"
   },
   {
     "id": 5,
@@ -37,6 +37,6 @@
     "party": "UCP",
     "region": "Southern Alberta",
     "division": "Calgary-Cross",
-    "photo": "/src/assets/headshots/member-5.png"
+    "photo": "/img/headshots/member-5.png"
   }
 ]
