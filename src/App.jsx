@@ -1,6 +1,7 @@
 import Landing from './views/Landing';
 import IntroCopy from './views/IntroCopy';
 import Card from './components/Card';
+import SearchBar from './views/SearchBar';
 import mlas from './data/mlas.json';
 
 export default function App() {
@@ -8,6 +9,8 @@ export default function App() {
     <div className="min-h-screen bg-gray-100 text-gray-900">
       <Landing />
       <IntroCopy />
+
+      <SearchBar/>
 
       <div className="card-grid">
         {mlas.map( mla => (
