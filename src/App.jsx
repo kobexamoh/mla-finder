@@ -13,7 +13,7 @@ export default function App() {
 
         <SearchBar />
 
-        <div className="card-grid">
+        <div className="card-grid grid grid-cols-1 lg:grid-cols-3 gap-3">
           {mlas.map((mla) => (
             <Card
               key={mla.id}
