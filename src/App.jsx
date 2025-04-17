@@ -6,8 +6,8 @@ import mlas from './data/mlas.json';
 
 export default function App() {
   return (
-    <div className="container">
-      <div className="min-h-screen bg-gray-100 text-gray-900">
+    <div className="container bg-gray-100">
+      <div className="min-h-screen text-gray-900">
         <Landing />
         <IntroCopy />
 
