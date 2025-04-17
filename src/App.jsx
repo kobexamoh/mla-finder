@@ -11,8 +11,10 @@ export default function App() {
         <Landing />
         <IntroCopy />
 
+{/* TODO: Move component into/just under IntroCopy */}
         <SearchBar />
 
+{/* TODO: better to put the mapping elsewhere so it stays clean? */}
         <div className="card-grid grid grid-cols-1 lg:grid-cols-3 gap-3 mt-5">
           {mlas.map((mla) => (
             <Card
