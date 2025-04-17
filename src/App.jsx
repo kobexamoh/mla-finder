@@ -6,14 +6,14 @@ import mlas from './data/mlas.json';
 
 export default function App() {
   return (
-    <div className="container bg-gray-100">
+    <div className="container bg-gray-100/20">
       <div className="min-h-screen text-gray-900">
         <Landing />
         <IntroCopy />
 
         <SearchBar />
 
-        <div className="card-grid grid grid-cols-1 lg:grid-cols-3 gap-3">
+        <div className="card-grid grid grid-cols-1 lg:grid-cols-3 gap-3 mt-5">
           {mlas.map((mla) => (
             <Card
               key={mla.id}
