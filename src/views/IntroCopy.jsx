@@ -1,3 +1,5 @@
+import SearchBar from "./SearchBar";
+
 export default function IntroCopy() {
     return (
         <section className="p-8 bg-gray-50 text-gray-800 rounded shadow mt-6 max-w-3xl mx-auto">
@@ -7,6 +9,9 @@ export default function IntroCopy() {
                <li><strong>What is a riding?</strong> An older term that kept its usage in the modern day, a riding is one's local voting area.</li>
                <li><strong>How do I find my MLA?</strong> Using this page! Use the search bar or filters to explore the MLAs.</li> 
             </ul>
+            <div className="">
+                <SearchBar />
+            </div>
         </section>
     );
 }
