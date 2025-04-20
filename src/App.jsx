@@ -11,6 +11,7 @@ export default function App() {
         <IntroCopy />
 
 {/* TODO: better to put the mapping elsewhere so it stays clean? */}
+{/* TODO: hide the results on page load until a search is made */}
         <div className="card-grid grid grid-cols-1 lg:grid-cols-3 gap-3 mt-5">
           {mlas.map((mla) => (
             <Card
