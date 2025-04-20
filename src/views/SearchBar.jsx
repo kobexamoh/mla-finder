@@ -25,6 +25,7 @@ export default function SearchBar() {
             </g>
           </svg>
         </label>
+        {/* TODO: place SVG inside form input */}
         <div className="w-10/12">
           <input
             name="search"
@@ -33,6 +34,7 @@ export default function SearchBar() {
             type="search"
           />
         </div>
+        {/* TODO: place reset inside input and show only when text is entered */}
         <button type="reset" className="w-1/12">
           <svg
             fill="#000000"
